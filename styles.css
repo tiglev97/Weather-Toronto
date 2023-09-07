@@ -1,0 +1,192 @@
+
+body{
+
+    background-image: url(../background.jpg);
+}
+
+.header{
+    height: 300px;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 60px;
+}
+
+.header-left{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 50px;
+    min-width: 350px;
+    box-shadow: 10px 10px gray;
+}
+
+.header-left:hover{
+    transform: scale(1.25);
+}
+
+.header-left h2 {
+    text-align: center;
+    font-size: 3vw;
+    width: 50%;
+    margin: auto;
+}
+
+.header-left img {
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    max-width: 200px;
+    min-width: 100px;
+
+}
+
+.icontemp{
+    height: 70%;
+    display: inline-flex;
+
+}
+
+.tempbox{
+    max-width: 50%;
+    min-width: 20%;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+}
+
+#temperature{
+    min-width: 200px;
+    height: 80px;
+}
+
+.tempbox h2{
+    font-size: 3vw;
+    text-align: left;
+    
+}
+
+.tempbox h3{
+    text-align: left;
+    font-size: 2.5vw;
+    margin-top: 0px;
+}
+
+
+.header-right{
+    height: 100%;
+    width: 60%;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 10px 10px gray;
+    display: block;
+}
+
+.toptitle{
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 10px 10px gray;
+}
+
+h2{
+    font-size: 25px;
+
+}
+
+#date{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#time{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#weekday{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.date_time{
+    display: inline-flex;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 10px 10px gray;
+    border-radius: 25px;
+    height: 6vh;
+    
+}
+
+.date_time h2{
+    height: 3vh;
+    margin-top: 10px;
+    
+}
+
+
+.infobox{
+    width: 18vh;
+    height: 12vh;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: solid 2px gray;
+    box-shadow: 2px 2px gray;
+}
+
+.infobox:hover{
+    transform: scale(1.25);
+}
+
+.infobox img{
+    height: 3.6vh;
+    width: 3.6vh;
+    margin-bottom: 0px;
+}
+
+.infobox .image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.2vh;
+    width: 4vh;
+}
+
+.infobox h2{
+    font-size: 2vh;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 13px;
+}
+
+.infobox h3{
+    font-size: 2.5vh;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+
+}
+
+.top-line{
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-evenly;
+}
+
+.bottom-line{
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-evenly;
+}

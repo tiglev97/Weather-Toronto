@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="toptitle">
+        <h1>Weather in Toronto, ON</h1>
+        <div class = 'date_time'>
+            <h2 id="weekday"></h2>
+            <h2 id="date"></h2>
+            <h2 id="time"></h2>
+        </div>
+        
+    </div>
+
+    <header class="header">
+        <div class="header-left">
+            <h2>Today</h2>
+            <div class="icontemp">
+                <img src = '' id="todayicon">
+                <div class="tempbox">
+                    <h2 id="temperature">25</h2>
+                    <h3 id="description">Sunny</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <div class="top-line">
+            
+                <div class="infobox" id="humidity">
+                    <h2>Humidity</h2>
+                    <h3 id="jshumidity"></h3>
+                    <div class="image">
+                        <img src="./humidity.png">
+                    </div>
+                    
+                </div>
+
+                <div class="infobox" id="feels">
+                    <h2>Feels Like</h2>
+                    <h3 id="jsfeelslike"></h3>
+                    <div class="image">
+                        <img src="./temperature-feels-like.svg">
+                    </div>
+                    
+                </div>
+
+                <div class="infobox" id="precipitation">
+                    <h2>Precipitation</h2>
+                    <h3 id="jsperception"></h3>
+                    <div class="image">
+                        <img src="./cloud-with-rain.svg">
+                    </div>
+                </div>
+
+                <div class="infobox" id="uvindex">
+                    <h2>UV Index</h2>
+                    <h3 id="jsuvindex"></h3>
+                    <div class="image">
+                        <img src="./uv-index.svg">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bottom-line">
+                <div class="infobox" id="windspeed">
+                    <h2>Windspeed</h2>
+                    <h3 id="jswindspeed"></h3>
+                    <div class="image">
+                        <img src="./wind.svg">
+                    </div>
+                </div>
+            
+                <div class="infobox" id="winddirection">
+                    <h2>Wind Direction</h2>
+                    <h3 id="jswinddirection">West</h3>
+                    <div class="image" >
+                        <img id="windicon" src="./up-arrow.svg">
+                    </div>
+                </div>
+
+                <div class="infobox" id="mintemp">
+                    <h2>Min Temperature</h2>
+                    <h3 id="jsmintemp"></h3>
+                    <div class="image">
+                        <img src="./thermometer-empty.svg">
+                    </div>
+                </div>
+
+                <div class="infobox" id="maxtemp">
+                    <h2>Max Temperature</h2>
+                    <h3 id="jsmaxtemp"></h3>
+                    <div class="image">
+                        <img src="./thermometer-full.svg">
+                    </div>
+                </div>
+
+
+
+            </div>
+            
+        </div>
+        <script type="module" src="/main.js"></script>
+    </header>
+    <script type="module" src="/main.js"></script>
+
+</body>
+</html>
