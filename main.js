@@ -108,6 +108,10 @@ function determine_icon(is_day , weather_code) {
             return ('./icons8-haze.gif');
         case (1, 48):
             return ('./icons8-haze.gif');
+        case(1, 96):
+            return('./thunderstorm.gif');
+        case(1, 95):
+            return('./thunderstorm.gif');
         //to be continued....
 
     };
@@ -143,6 +147,8 @@ async function populate_icons() {
         82: 'Rain Showers - Heavy',
         85: 'Snow Showers - Light',
         86: 'Snow Showers - Heavy',
+        96: 'Thunderstorm',
+        95: 'Thunderstorm'
 
     };
 
